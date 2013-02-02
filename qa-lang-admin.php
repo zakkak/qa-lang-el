@@ -2,12 +2,9 @@
 	
 /*
 	Question2Answer (c) Gideon Greenspan
-
-	http://www.question2answer.org/
+	Question2Answer Greek Translation (c) Foivos S. Zakkak
 
 	
-	File: qa-include/qa-lang-admin.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for admin center
 
 
