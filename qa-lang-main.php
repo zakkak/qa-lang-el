@@ -1,6 +1,7 @@
 <?php
 	
 /*
+	Question2Answer (c) Gideon Greenspan
 	Question2Answer Greek Translation (c) Foivos S. Zakkak
 
 	
