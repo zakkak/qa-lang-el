@@ -116,7 +116,7 @@
 		'nav_register' => 'Εγγραφή',
 		'nav_tags' => 'Ετικέτες',
 		'nav_unanswered' => 'Αναπάντητες',
-		'nav_updates' => 'My Updates',
+		'nav_updates' => 'Ενημερώσεις',
 		'nav_users' => 'Χρήστες',
 		'no_active_users' => 'Δεν βρέθηκαν ενεργοί χρήστες',
 		'no_answers_found' => 'Δεν βρέθηκαν απαντήσεις',
