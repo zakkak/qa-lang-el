@@ -102,7 +102,7 @@
 		'nav_home' => 'Home',
 		'nav_hot' => 'Δημοφιλείς!',
 		'nav_login' => 'Είσοδος',
-		'nav_logout' => 'Έξοδος',
+		'nav_logout' => 'Αποσύνδεση',
 		'nav_most_answers' => 'Περισσότερες απαντήσεις',
 		'nav_most_recent' => 'Πρόσφατες',
 		'nav_most_views' => 'Περισσότερες προβολές',
