@@ -93,7 +93,7 @@
 		'login_limit' => 'Too many registrations - please try again in an hour',
 		'login_suspended' => 'Registration of new users has been temporarily suspended. Παρακαλώ try again soon.',
 		'login_title' => 'Εγγραφή ως νέος χρήστης',
-		'εγγραφείτεed_user' => 'Εγγεγραμμένος χρήστης',
+		'registered_user' => 'Εγγεγραμμένος χρήστης',
 		'remember_label' => 'Απομνημόνευση στοιχείων σε αυτόν τον υπολογιστή',
 		'remember' => 'Απομνημόνευση',
 		'remove_avatar' => 'Διαγραφή εικόνας προφίλ:',
