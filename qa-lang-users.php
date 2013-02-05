@@ -94,7 +94,7 @@
 		'register_suspended' => 'Registration of new users has been temporarily suspended. Παρακαλώ try again soon.',
 		'register_title' => 'Εγγραφή ως νέος χρήστης',
 		'registered_user' => 'Εγγεγραμμένος χρήστης',
-		'remember_label' => 'Απομνημόνευση στοιχείων σε αυτόν τον υπολογιστή',
+		'remember_label' => 'Απομνημόνευση στοιχείων',
 		'remember' => 'Απομνημόνευση',
 		'remove_avatar' => 'Διαγραφή εικόνας προφίλ:',
 		'reset_code_another' => 'send another',
