@@ -1,10 +1,10 @@
 <?php
-	
+
 /*
 	Question2Answer (c) Gideon Greenspan
 	Question2Answer Greek Translation (c) Foivos S. Zakkak
 
-	
+
 	Description: Language phrases for question page
 
 
@@ -12,7 +12,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -35,8 +35,10 @@
 		'add_answer_button' => 'Προσθήκη απάντησης',
 		'add_comment_button' => 'Προσθήκη σχολίου',
 		'add_q_favorites' => 'Προσθήκη ερώτησης στα αγαπημένα',
+		'anon_name_label' => 'Το όνομα σας (προεραιτικό):',
 		'answer_button' => 'απαντήστε',
-		'answer_limit' => 'Too many answers received - please try again in an hour',
+		'answer_limit' => 'Ελήφθησαν πάρα πολλές απαντήσεις - παρακαλώ δοκιμάστε αργότερα',
+		'answer_must_be_approved' => 'Ο λογαριασμός σας πρέπει να εγκριθεί πριν απαντήσετε κάποια ερώτηση.',
 		'answer_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 για να απαντήσετε την ερώτηση.',
 		'answer_must_login' => 'Παρακαλώ ^1συνδεθείτε^2 ή ^3εγγραφείτε^4 για να απαντήσετε την ερώτηση.',
 		'answer_q_popup' => 'Απαντήστε την ερώτηση',
@@ -44,7 +46,8 @@
 		'ask_button' => 'Ρωτήστε',
 		'ask_follow_from_a' => 'Η ερώτηση σας θα συσχετιστεί με αυτή την απάντηση:',
 		'ask_follow_title' => 'Δημιουργήστε μία σχετική ερώτηση',
-		'ask_limit' => 'Too many questions received - please try again in an hour',
+		'ask_limit' => 'Ελήφθησαν πάρα πολλές ερωτήσεις - παρακαλώ δοκιμάστε αργότερα',
+		'ask_must_be_approved' => 'Ο λογαριασμός σας πρέπει να εγκριθεί πριν δημιουργήσετε κάποια ερώτηση.',
 		'ask_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 to ask a question.',
 		'ask_must_login' => 'Παρακαλώ ^1συνδεθείτε^2 or ^3εγγραφείτε^4 to ask a question.',
 		'ask_same_q' => 'Πριν συνεχίσετε, παρακαλώ ελέγξτε αν η ερώτηση σας έχει γίνει ήδη:',
@@ -56,9 +59,10 @@
 		'c_your_waiting_approval' => 'Το σχόλιο σας θα ελεγχθεί και εγκριθεί σύντομα.',
 		'category_js_note' => 'Για να επιλέξετε κατηγορία, παρακαλώ ενεργοποιήστε την Javascript στον φυλλομετρητής',
 		'category_required' => 'Παρακαλώ επιλέξτε μία κατηγορία',
+		'category_ask_not_allowed' => 'Δεν έχετε δικαίωμα να δημιουργήσετε ερώτηση σε αυτή τη κατηγορία',
 		'claim_button' => 'Εγώ το έγραψα',
-		'clear_flags_button' => 'clear flags',
-		'clear_flags_popup' => 'Remove flags by all users',
+		'clear_flags_button' => 'αφαίρεση των flags',
+		'clear_flags_popup' => 'Αφαίρεση των flags από όλους τους χρήστες',
 		'close_button' => 'κλείσιμο',
 		'close_duplicate_error' => 'The duplicate question could not be found - please try entering the number from a different question URL, e.g. 123.',
 		'close_duplicate' => 'Η ερώτηση είναι επαναδιατύπωση κάποιας άλλης',
@@ -72,7 +76,8 @@
 		'closed_with_note' => 'έκλεισε με την σημείωση:',
 		'comment_a_popup' => 'Προσθήκη σχολίου στην απάντηση',
 		'comment_button' => 'σχόλιο',
-		'comment_limit' => 'Too many comments received - please try again in an hour',
+		'comment_limit' => 'Ελήφθησαν πάρα πολλά σχόλια - παρακαλώ δοκιμάστε αργότερα',
+		'comment_must_be_approved' => 'Ο λογαριασμός σας πρέπει να εγκριθεί πριν σχολιάσετε κάποια ερώτηση.',
 		'comment_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 για να προσθέσετε σχόλιο.',
 		'comment_must_login' => 'Παρακαλώ ^1συνδεθείτε^2 ή ^3εγγραφείτε^4 για να προσθέσετε σχόλιο.',
 		'comment_on_a' => 'Στην απάντηση: ',
@@ -93,15 +98,15 @@
 		'edit_q_popup' => 'Επεξεργασία ερώτησης',
 		'edit_q_title' => 'Επεξεργασία Ερώτησης',
 		'example_tags' => 'Ετικέτες παράδειγμα: ',
-		'flag_a_popup' => 'Flag this answer as spam or inappropriate',
+		'flag_a_popup' => 'Μαρκάρετε αυτή την απάντηση ως spam ή ακατάλληλη',
 		'flag_button' => 'flag',
-		'flag_c_popup' => 'Flag this comment as spam or inappropriate',
-		'flag_hide_button' => 'flag and hide',
-		'flag_limit' => 'Too many posts flagged - please try again in an hour',
+		'flag_c_popup' => 'Μαρκάρετε αυτό το σχόλιο ως spam ή ακατάλληλο',
+		'flag_hide_button' => 'μαρκάρετε και κρύψτε',
+		'flag_limit' => 'Πάρα πολλές δημοσιεύσεις έγιναν flag - παρακαλώ δοκιμάστε αργότερα',
 		'flag_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 για να καταγγείλετε δημοσιεύσεις.',
 		'flag_must_login' => 'Παρακαλώ ^1συνδεθείτε^2 ή ^3εγγραφείτε^4 για να καταγγείλετε δημοσιεύσεις.',
-		'flag_not_allowed' => 'Flagging this is not allowed',
-		'flag_q_popup' => 'Flag this question as spam or inappropriate',
+		'flag_not_allowed' => 'Δεν επιτρέπετε το μαρκάρισμα εδώ',
+		'flag_q_popup' => 'Μαρκάρετε αυτή την ερώτηση ως spam ή ακατάλληλη',
 		'follow_a_popup' => 'Δημιουργήστε νέα ερώτηση σχετικά με αυτή την απάντηση',
 		'follow_button' => 'Δημιουργήστε σχετική ερώτηση',
 		'follows_a' => 'συσχετισμένη με μία απάντηση για:',
@@ -141,6 +146,7 @@
 		'retag_cat_popup' => 'Αλλάξτε την κατηγορία ή τις ετικέτες της ερώτησης',
 		'retag_popup' => 'Αλλάξτε τις ετικέτες της ερώτησης',
 		'retag_q_title' => 'Retag question',
+		'save_silent_label' => 'Σώστε στα κρυφά (δεν εμφανίζεται ότι επεξεργάσθηκε)',
 		'select_popup' => 'Κάντε κλικ για να την επιλέξετε ως καλύτερη απάντηση',
 		'select_text' => 'Καλύτερη απάντηση',
 		'show_1_comment' => 'Εμφάνιση ενός σχόλιου',
@@ -148,14 +154,14 @@
 		'show_x_comments' => 'Εμφάνιση ^ σχολίων',
 		'show_x_previous_comments' => 'Εμφάνιση ^ προηγούμενων σχολίων',
 		'unflag_button' => 'unflag',
-		'unflag_popup' => 'Remove the flag that you added',
+		'unflag_popup' => 'Αφαιρέστε το flag που προσθέσατε',
 		'unselect_popup' => 'Κάντε κλικ για να αφαιρέσετε την επιλογή',
 		'x_answers_title' => '^ Απαντήσεις',
 		'your_answer_title' => 'Η απάντηση σας',
 		'your_comment_a' => 'Το σχόλιο σας στην απάντηση:',
 		'your_comment_q' => 'Το σχόλιο σας στην ερώτηση:',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

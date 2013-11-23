@@ -1,10 +1,10 @@
 <?php
-	
+
 /*
 	Question2Answer (c) Gideon Greenspan
 	Question2Answer Greek Translation (c) Foivos S. Zakkak
 
-	
+
 	Description: Language phrases for user management
 
 
@@ -12,7 +12,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -24,20 +24,28 @@
 	return array(
 		'about' => 'Πληροφορίες',
 		'add_user_x_favorites' => 'Προσθήκη χρήστη ^ στα αγαπημένα',
+		'approve_required' => 'Παρακαλώ περιμένετε να εγκριθεί ο λογαριασμός σας ή ^1προσθέστε περισσότερες πληροφορίες^2.',
+		'approve_title' => 'Εκκρεμεί η έγκριση του λογαριασμού',
+		'approve_user_button' => 'Έγκριση χρήστη',
+		'approved_user' => 'Εγκεκριμένος χρήστης',
 		'avatar_default' => 'Προεπιλογή',
 		'avatar_gravatar' => 'Εμφάνιση του ^1Gravatar^2',
 		'avatar_label' => 'Εικόνα προφίλ:',
 		'avatar_none' => 'Χωρίς',
 		'block_user_button' => 'Μπλοκάρισμα χρήστη',
 		'blocked_users' => 'Μπλοκαρισμένοι χρήστες',
+		'category_level_add' => ' - ^1προσθήλη δικαιωμάτων ανά κατηγορία^2',
+		'category_level_in' => 'για την κατηγορία:',
+		'category_level_label' => 'Αναβάθμιση σε:',
+		'category_level_none' => 'Καμία αναβάθμιση',
 		'change_email_link' => ' - ^1αλλαγή email^2',
 		'change_password' => 'Αλλαγή κωδικού',
 		'confirm_complete' => 'Ευχαριστούμε - η ηλεκτρονική σας διεύθυνση έχει επιβεβαιωθεί',
 		'confirm_emailed' => 'Σας έχει αποσταλεί ένας υπερσύνδεσμος επιβεβαίωσης στην ηλεκτρονική σας διεύθυνση παρακαλώ ανοίξτε τον υπερσύνδεσμο για να επιβεβαιώσετε την ηλεκτρονική σας διεύθυνση',
 		'confirm_required' => 'Για να ολοκληρώσετε την εγγραφή σας, παρακαλώ πατήστε τον σύνδεσμο επιβεβαίωσης που σας έχει αποσταλεί, ή ζητήστε να σας ^1ξανά αποσταλεί^2.',
 		'confirm_title' => 'Επιβεβαίωση ηλεκτρονικής διεύθυνσης',
-		'confirm_wrong_log_in' => 'Code not correct - please ^1log in^2 to send a new link',
-		'confirm_wrong_resend' => 'Code not correct - please click below to send a new link',
+		'confirm_wrong_log_in' => 'Λάθος κωδικός - παρακαλώ ^1συνδεθείτε^2 για να στείλετε έναν νέο σύνδεσμο',
+		'confirm_wrong_resend' => 'Λάθος κωδικός - παρακαλώ κάντε click παρακάτω για να αποσταλεί νέος σύνδεσμος',
 		'delete_user_button' => 'Διαγραφή χρήστη',
 		'edit_user_button' => 'Επεξεργασία χρήστη',
 		'email_confirmed' => 'Επιβεβαιωμένο',
@@ -47,7 +55,7 @@
 		'email_label' => 'Ηλεκτρονική διεύθυνση:',
 		'email_not_confirmed' => 'Μη επιβεβαιωμένη',
 		'email_please_confirm' => 'Παρακαλώ ^5επιβεβαιώστε^6',
-		'email_required' => 'Email address required - not public',
+		'email_required' => 'Απαιτείτε ηλεκτρονική διεύθυνση (δεν θα δημοσιευθεί)',
 		'forgot_link' => 'Ξέχασα τον κωδικό μου',
 		'full_name' => 'Ονοματεπώνυμο',
 		'handle_empty' => 'Το όνομα χρήστη δεν μπορεί να είναι άδειο',
@@ -60,15 +68,17 @@
 		'level_admin' => 'Administrator',
 		'level_editor' => 'Editor',
 		'level_expert' => 'Expert',
+		'level_for_category' => '^1 για ^2',
+		'level_in_general' => 'γενικά',
 		'level_moderator' => 'Moderator',
 		'level_super' => 'Super Administrator',
 		'location' => 'Τοποθεσία',
 		'log_in_to_access' => 'Μπορείτε να ^1συνδεθείτε^2 για να δείτε τον λογαριασμό σας.',
 		'login_button' => 'Είσοδος',
-		'login_limit' => 'Too many login attempts - please try again in an hour',
+		'login_limit' => 'Ξεπεράσατε το όριο αποτυχημένων εισόδων - παρακαλώ δοκιμάστε αργότερα',
 		'login_title' => 'Είσοδος',
-		'mass_mailings_explanation' => 'Subscribe to emails sent out to all users',
-		'mass_mailings' => 'Mass mailings:',
+		'mass_mailings_explanation' => 'Εγγραφείτε για να λαμβάνετε μαζική ηλεκτρονική αλληλογραφία',
+		'mass_mailings' => 'Μαζική αλληλογραφία:',
 		'member_for' => 'Μέλος για:',
 		'member_type' => 'Τύπος χρήστη:',
 		'new_password_1' => 'Νέος κωδικός:',
@@ -76,8 +86,10 @@
 		'no_blocked_users' => 'Δεν βρέθηκαν μπλοκαρισμένοι χρήστες',
 		'no_permission' => 'Δεν έχετε δικαίωμα να εκτελέσετε αυτό το εγχείρημα',
 		'old_password' => 'Παλιός κωδικός:',
-		'only_shown_admins' => '(ορατό μόνο στους admins)',
-		'only_shown_moderators' => '(ορατό μόνο στους moderators)',
+		'only_shown_admins' => '(ορατό μόνο σε admins)',
+		'only_shown_editors' => '(ορατό μόνο σε editors και πάνω)',
+		'only_shown_experts' => '(ορατό μόνο σε experts και πάνω)',
+		'only_shown_moderators' => '(ορατό μόνο σε moderators και admins)',
 		'password_changed' => 'Ο κωδικός πρόσβασης άλλαξε',
 		'password_label' => 'Κωδικός πρόσβασης:',
 		'password_min' => 'Ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον ^ χαρακτήρες',
@@ -89,18 +101,21 @@
 		'private_messages_explanation' => 'Να επιτρέπετε η αποστολή ηλεκτρονικών μηνυμάτων στους χρήστες (χωρίς να βλέπουν την ηλεκτρονική μου διεύθυνση)',
 		'private_messages' => 'Προσωπικά μηνύματα:',
 		'profile_saved' => 'Το προφίλ αποθηκεύτηκε',
+		'wall_posts' => 'Δημοσιεύσης:',
+		'wall_posts_explanation' => 'Επιτρέψτε σε άλλους χρήστες να δημοσιεύουν στον τοίχο σας (θα ειδοποιήστε με ηλεκτρονική αλληλογραφία)',
 		'register_button' => 'Εγγραφή',
-		'register_limit' => 'Too many registrations - please try again in an hour',
-		'register_suspended' => 'Registration of new users has been temporarily suspended. Παρακαλώ try again soon.',
+		'register_limit' => 'Πάρα πολλές εγγραφές - παρακαλώ προσπαθήστε αργότερα',
+		'register_suspended' => 'Οι εγγραφές νέων χρηστών έχουν παγώσει προσωρινά. Παρακαλώ δοκιμάστε αργότερα.',
 		'register_title' => 'Εγγραφή ως νέος χρήστης',
+		'registered_label' => 'Εγγεγραμμένος:',
 		'registered_user' => 'Εγγεγραμμένος χρήστης',
 		'remember_label' => 'Απομνημόνευση στοιχείων',
 		'remember' => 'Απομνημόνευση',
 		'remove_avatar' => 'Διαγραφή εικόνας προφίλ:',
-		'reset_code_another' => 'send another',
-		'reset_code_emailed' => 'You have been emailed your reset code',
-		'reset_code_label' => 'Code:',
-		'reset_code_wrong' => 'Code not correct',
+		'reset_code_another' => 'ξαναστείλτε',
+		'reset_code_emailed' => 'Σας έχει αποσταλεί κωδικός επαναφοράς',
+		'reset_code_label' => 'Κωδικός:',
+		'reset_code_wrong' => 'Λάθος κωδικός',
 		'reset_title' => 'Επαναφορά ξεχασμένου κωδικού',
 		'save_profile' => 'Αποθήκευση προφίλ',
 		'save_user' => 'Αποθήκευση χρήστη',
@@ -110,16 +125,16 @@
 		'send_reset_note' => 'Θα αποσταλεί ηλεκτρονικό μήνυμα με οδηγίες.',
 		'special_users' => 'Ειδικοί χρήστες',
 		'unblock_user_button' => 'Απεμπλοκή χρήστη',
-		'unsubscribe_complete' => 'You have been unsubscribed from mass mailings sent out by ^0. You may resubscribe at any time via your ^1account^2 page.', 
+		'unsubscribe_complete' => 'Έχετε απεγγραφεί από την μαζική αλληλογραφία από τπν/την ^0. Μπορείτε να επανεγγραφείτε όποτε θέλετε μέσο της σελίδας του ^1λογαριασμού^2 σας.',
 		'unsubscribe_title' => 'Απεγγραφή',
-		'unsubscribe_wrong_log_in' => 'Code not correct - please ^1log in^2 to unsubscribe',
+		'unsubscribe_wrong_log_in' => 'Λάθος κωδικός - παρακαλώ ^1συνδεθείτε^2 για να επεγγραφείτε',
 		'unsubscribe' => 'Απεγγραφή:',
 		'user_blocked' => '(μπλοκαρισμένος)',
 		'user_not_found' => 'Ο χρήστης δεν βρέθηκε',
 		'website' => 'Ιστοσελίδα',
 		'x_ago_from_y' => '^1 πριν από τον/την ^2',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output
