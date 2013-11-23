@@ -1,10 +1,10 @@
 <?php
-	
+
 /*
 	Question2Answer (c) Gideon Greenspan
 	Question2Answer Greek Translation (c) Foivos S. Zakkak
 
-	
+
 	Description: Language phrases for email notifications
 
 
@@ -12,7 +12,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -40,10 +40,10 @@
 		'feedback_body' => "Comments:\n^message\n\nName:\n^name\n\nEmail:\n^email\n\nPrevious page:\n^previous\n\nUser:\n^url\n\nIP address:\n^ip\n\nBrowser:\n^browser",
 		'feedback_subject' => '^ feedback',
 
-		'flagged_body' => "A post by ^p_handle has received ^flags:\n\n^open^p_context^close\n\nClick below to see the post:\n\n^url\n\nThank you,\n\n^site_title",
+		'flagged_body' => "A post by ^p_handle has received ^flags:\n\n^open^p_context^close\n\nClick below to see the post:\n\n^url\n\n\nClick below to review all flagged posts:\n\n^a_url\n\n\nThank you,\n\n^site_title",
 		'flagged_subject' => '^site_title has a flagged post',
 
-		'moderate_body' => "A post by ^p_handle requires your approval:\n\n^open^p_context^close\n\nClick below to approve or reject the post:\n\n^url\n\nThank you,\n\n^site_title",
+		'moderate_body' => "A post by ^p_handle requires your approval:\n\n^open^p_context^close\n\nClick below to approve or reject the post:\n\n^url\n\n\nClick below to review all queued posts:\n\n^a_url\n\n\nThank you,\n\n^site_title",
 		'moderate_subject' => '^site_title moderation',
 
 		'new_password_body' => "Your new password for ^site_title is below.\n\nPassword: ^password\n\nIt is recommended to change this password immediately after logging in.\n\nThank you,\n^site_title\n^url",
@@ -72,7 +72,7 @@
 		'welcome_confirm' => "Please click below to confirm your email address.\n\n^url\n\n",
 		'welcome_subject' => 'Welcome to ^site_title!',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output
