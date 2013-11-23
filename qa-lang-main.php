@@ -1,10 +1,10 @@
 <?php
-	
+
 /*
 	Question2Answer (c) Gideon Greenspan
 	Question2Answer Greek Translation (c) Foivos S. Zakkak
 
-	
+
 	Description: Language phrases commonly used throughout Q2A
 
 
@@ -12,7 +12,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -25,10 +25,7 @@
 		'1_answer' => '1 απάντηση',
 		'1_comment' => '1 σχόλιο',
 		'1_day' => '1 ημέρα',
-		'1_disliked' => '1 dislike',
-		'1_flag' => '1 flag',
 		'1_hour' => '1 ώρα',
-		'1_liked' => '1 like',
 		'1_minute' => '1 λεπτό',
 		'1_month' => '1 μήνα',
 		'1_point' => '1 πόντο',
@@ -48,7 +45,7 @@
 		'answer_edited' => 'η απάντηση επεξεργάσθηκε',
 		'answer_reshown' => 'η απάντηση ξαναπροβλήθηκε',
 		'answer_selected' => 'η απάντηση επιλέχθηκε',
-		'answered_qs_in_x' => 'Most answered questions in ^',
+		'answered_qs_in_x' => 'Πιο απαντημένες ερωτήσεις σε ^',
 		'answered_qs_title' => 'Πιο απαντημένες ερωτήσεις',
 		'answered' => 'απαντήθηκε',
 		'asked_related_q' => 'έγινε σχετική ερώτηση',
@@ -60,7 +57,6 @@
 		'comment_moved' => 'το σχόλιο διαγράφηκε',
 		'comment_reshown' => 'το σχόλιο ξαναπροβλήθηκε',
 		'commented' => 'σχολιάσθηκε',
-		'date_day_min_digits' => 1, // 1 or 2
 		'date_format_other_years' => '^day ^month, ^year',
 		'date_format_this_year' => '^day ^month',
 		'date_month_1' => 'Ιαν',
@@ -78,7 +74,7 @@
 		'date_year_digits' => 2, // 2 or 4
 		'edited' => 'επεξεργάσθηκε',
 		'field_required' => 'Παρακαλώ συμπληρώστε το πεδίο',
-		'general_error' => 'A server error occurred - please try again.',
+		'general_error' => 'Παρουσιάσθηκε κάποιο σφάλμα στον server - παρακαλώ προσπαθήστε ξανά.',
 		'hidden' => 'κρυφό',
 		'highest_users' => 'Οι χρήστες με το μεγαλύτερο σκορ',
 		'hot_qs_in_x' => 'Δημοφιλείς ερωτήσεις σε ^',
@@ -90,17 +86,16 @@
 		'logged_in_x' => 'Γεια σου ^',
 		'max_length_x' => 'Μέγιστο μήκος ^ χαρακτήρες',
 		'me' => 'εμένα',
-		'meta_order' => '^what^when^where^who', // you can reorder but DO NOT translate! e.g. <answered> <15 hours ago> <in Problems> <by me (500 points)>
 		'min_length_x' => 'Παρακαλώ παρέχεται περισσότερες πληροφορίες - τουλάχιστον ^ χαρακτήρες',
 		'max_upload_size_x' => 'Μέγιστο μέγεθος αρχείου ^',
 		'moved' => 'μεταφέρθηκε',
 		'nav_account' => 'Ο λογαριασμός μου',
 		'nav_activity' => 'Όλες οι δραστηριότητες',
-		'nav_admin' => 'Admin',
+		'nav_admin' => 'Διαχείρηση',
 		'nav_ask' => 'Ρωτήστε',
 		'nav_categories' => 'Κατηγορίες',
 		'nav_feedback' => 'Αποστολή σχολίου',
-		'nav_home' => 'Home',
+		'nav_home' => 'Αρχική',
 		'nav_hot' => 'Δημοφιλείς!',
 		'nav_login' => 'Είσοδος',
 		'nav_logout' => 'Αποσύνδεση',
@@ -151,13 +146,12 @@
 		'recent_qs_as_title' => 'Πρόσφατες ερωτήσεις και απαντήσεις',
 		'recent_qs_in_x' => 'Πρόσφατες ερωτήσεις σε ^',
 		'recent_qs_title' => 'Πρόσφατες ερωτήσεις',
-		'related_qs_title' => 'Related questions',
+		'related_qs_title' => 'Σχετικές ερωτήσεις',
 		'remove_favorites' => 'Διαγραφή από τα αγαπημένα',
 		'remove_x_favorites' => 'Διαγραφή ^ από τα αγαπημένα',
 		'reopened' => 'ξανάνοιξε',
 		'reshown' => 'ξαναπροβλήθηκε',
 		'results_for_x' => 'Αποτελέσματα αναζήτησης για ^',
-		'retagged' => 'retagged',
 		'save_button' => 'Αποθήκευση αλλαγών',
 		'search_button' => 'Αναζήτηση',
 		'search_explanation' => 'Παρακαλώ συμπληρώστε το πεδίο και δοκιμάστε ξανά.',
@@ -174,7 +168,7 @@
 		'unselected_qs_title' => 'Πρόσφατες ερωτήσεις χωρίς επιλεγμένη απάντηση',
 		'unupvoteda_qs_in_x' => 'Ερωτήσεις χωρίς ψηφισμένη απάντηση σε ^',
 		'unupvoteda_qs_title' => 'Πρόσφατες ερωτήσεις χωρίς ψηφισμένη απάντηση',
-		'upload_limit' => 'Too many uploads - please try again in an hour',
+		'upload_limit' => 'Πάρα πολλές αναρτήσεις - παρακαλώ προσπαθήστε αργότερα',
 		'view_q_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 για να δείτε σελίδες ερωτήσεων.',
 		'view_q_must_login' => 'Παρακαλώ ^1συνδεθείτε^2 or ^3εγγραφείτε^4 για να δείτε σελίδες ερωτήσεων.',
 		'viewed_qs_in_x' => 'Πιο προβεβλημένες ερωτήσεις σε ^',
@@ -188,7 +182,7 @@
 		'vote_disabled_q_page_only' => 'Παρακαλώ δείτε αυτή την ερώτηση για να ψηφίσετε',
 		'vote_down_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 για να καταψηφίσετε.',
 		'vote_down_popup' => 'Πατήστε για να καταψηφίσετε',
-		'vote_limit' => 'Too many votes received - please try again in an hour',
+		'vote_limit' => 'Πάρα πολλές ψήφοι - παρακαλώ δοκιμάστε αργότερα',
 		'vote_must_confirm' => 'Παρακαλώ ^5επιβεβαιώστε την ηλεκτρονική σας διεύθυνση^6 για να ψηφίσετε',
 		'vote_must_login' => 'Παρακαλώ ^1εισέλθετε^2 ή ^3εγγραφείτε^4 για να ψηφίσετε',
 		'vote_not_allowed' => 'Η ψηφοφορία δεν επιτρέπεται',
@@ -201,10 +195,7 @@
 		'x_answers' => '^ απαντήσεις',
 		'x_comments' => '^ σχόλια',
 		'x_days' => '^ μέρες',
-		'x_disliked' => '^ dislike',
-		'x_flags' => '^ flags',
 		'x_hours' => '^ ώρες',
-		'x_liked' => '^ like',
 		'x_minutes' => '^ λεπτά',
 		'x_months' => '^ μήνες',
 		'x_points' => '^ πόντοι',
@@ -217,7 +208,7 @@
 		'x_weeks' => '^ εβδομάδες',
 		'x_years' => '^ χρόνια',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output
